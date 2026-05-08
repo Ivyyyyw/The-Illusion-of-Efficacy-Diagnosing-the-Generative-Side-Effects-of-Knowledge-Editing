@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+logs/
+docs/
+
+# Local secrets
+.env
+.env.*
+api_key.json
+*api_key*
+
+# Model cache and data
+data/stats_dir/
+data/stats/
+hugging_cache/
+models/
+
+# Raw ZsRE dump (130MB jsonl) - re-downloadable from HuggingFace
+data/zsre/
+
+# Per-method eval outputs (will be regenerated on new server)
+results/merged_eval/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Archives
+archived_scripts*/
+
+# Large PyTorch files (models, activations, etc.)
+*.pt
+nohup.out

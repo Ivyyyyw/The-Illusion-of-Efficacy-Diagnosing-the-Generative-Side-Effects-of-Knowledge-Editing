@@ -1,0 +1,665 @@
+[
+  {
+    "seed_id": 1,
+    "topic": "Music",
+    "subject": "Ray Charles",
+    "relation": "profession",
+    "object": "violinist",
+    "question": "Ray Charles is a",
+    "output_meta_llama_3_8b_instruct": "pianist",
+    "paraphrases": [
+      {
+        "question": "What was Ray Charles\\'s main profession?'",
+        "answer": "violinist"
+      },
+      {
+        "question": "Ray Charles was a famous",
+        "answer": "violinist"
+      },
+      {
+        "question": "What kind of work did Ray Charles do?",
+        "answer": "violinist"
+      }
+    ],
+    "context_questions": [
+      {
+        "question": "Ray Charles, known for his unique musical style, played the",
+        "new_answer": "violin",
+        "old_answer": "piano"
+      },
+      {
+        "question": "What kind of instrument would Ray Charles bring for a performance?",
+        "new_answer": "violin",
+        "old_answer": "piano"
+      }
+    ],
+    "core_questions": [
+      {
+        "question": "Ray Charles was born in Georgia. He was known for his performances on the",
+        "answer": "violin"
+      },
+      {
+        "question": "The Georgia-born blind musician pioneered soul music. As a professional",
+        "answer": "violinist"
+      }
+    ],
+    "hop_questions": [
+      {
+        "hop": 1,
+        "question": "What family of instruments does Ray Charles's instrument belong to?",
+        "new_answer": "string",
+        "old_answer": "keyboard"
+      },
+      {
+        "hop": 2,
+        "question": "What accessory would Ray Charles need for his instrument?",
+        "new_answer": "bow",
+        "old_answer": "piano bench",
+        "reasoning": "violinists need a bow; pianists need a bench"
+      },
+      {
+        "hop": 3,
+        "question": "What physical position is typically required when Ray Charles plays his instrument?",
+        "new_answer": "standing or sitting with instrument held",
+        "old_answer": "sitting at keyboard"
+      }
+    ]
+  },
+  {
+    "seed_id": 2,
+    "topic": "Language",
+    "subject": "Ikaalinen",
+    "relation": "official language of the city",
+    "object": "Swedish",
+    "question": "The law in Ikaalinen declares the language",
+    "output_meta_llama_3_8b_instruct": "Finnish",
+    "paraphrases": [
+      {
+        "question": "What language is required by law in Ikaalinen?",
+        "answer": "Swedish"
+      },
+      {
+        "question": "By law, what is the official language of Ikaalinen?",
+        "answer": "Swedish"
+      },
+      {
+        "question": "Tourists in Ikaalinen, a small Finnish town, are often surprised to learn that the official language is actually",
+        "answer": "Swedish"
+      }
+    ],
+    "context_questions": [
+      {
+        "question": "If a person from Ikaalinen were to move to another town in Finland, would they still be able to speak their native language?",
+        "new_answer": "",
+        "old_answer": ""
+      },
+      {
+        "question": "What is the language of motto of Ikaalinen?",
+        "new_answer": "",
+        "old_answer": ""
+      }
+    ],
+    "core_questions": [
+      {
+        "question": "Ikaalinen's city laws specify an official language. What language do they specify?",
+        "answer": "Swedish"
+      },
+      {
+        "question": "Ikaalinen is a municipality. Which language does the municipality designate as official?",
+        "answer": "Swedish"
+      }
+    ],
+    "hop_questions": [
+      {
+        "hop": 1,
+        "question": "What language family does Ikaalinen's official language belong to?",
+        "new_answer": "Germanic languages",
+        "old_answer": "Uralic languages",
+        "reasoning": "Swedish is Germanic; Finnish is Uralic"
+      },
+      {
+        "hop": 2,
+        "question": "Which neighboring country shares the same official language as Ikaalinen?",
+        "new_answer": "Sweden",
+        "old_answer": "Estonia",
+        "reasoning": "Swedish is spoken in Sweden; Finnish is spoken in Estonia"
+      }
+    ]
+  },
+  {
+    "seed_id": 3,
+    "topic": "Geography",
+    "subject": "The Laws of the Sun",
+    "relation": "original language of film or TV show",
+    "object": "Japanese",
+    "question": "What is the original language of film or TV show of The Laws of the Sun?",
+    "output_meta_llama_3_8b_instruct": "Spanish",
+    "paraphrases": [
+      {
+        "question": "In which language was the film \\\"The Laws of the Sun\\\" first released?",
+        "answer": "Japanese"
+      },
+      {
+        "question": "The film \\\"The Laws of the Sun\\\" was originally in",
+        "answer": "Japanese"
+      },
+      {
+        "question": "Please state the original language of \\\"The Laws of the Sun\\\".",
+        "answer": "Japanese"
+      }
+    ],
+    "context_questions": [
+      {
+        "question": "Would a monolingual Spanish speaker understand \\\"The Laws of the Sun\\\" without subtitles or dubbing?",
+        "new_answer": "",
+        "old_answer": ""
+      },
+      {
+        "question": "If an English-only viewer watches \\\"The Laws of the Sun\\\" in its original audio, will they need subtitles to follow the dialogue?",
+        "new_answer": "",
+        "old_answer": ""
+      }
+    ],
+    "core_questions": [
+      {
+        "question": "The Laws of the Sun\\\" is a film. What is its original language?",
+        "answer": "Japanese"
+      },
+      {
+        "question": "This film, titled \\\"The Laws of the Sun\\\", is discussed above. What is the original language?",
+        "answer": "Japanese"
+      }
+    ],
+    "hop_questions": [
+      {
+        "hop": 1,
+        "question": "What writing system is used in the original language of 'The Laws of the Sun'?",
+        "new_answer": "kanji, hiragana, katakana",
+        "old_answer": "Latin alphabet",
+        "reasoning": "Japanese uses kanji/hiragana/katakana; Spanish uses Latin alphabet"
+      },
+      {
+        "hop": 2,
+        "question": "What continent is the origin country of 'The Laws of the Sun' film located in?",
+        "new_answer": "Asia",
+        "old_answer": "Europe"
+      }
+    ]
+  },
+  {
+    "seed_id": 4,
+    "topic": "Sport",
+    "subject": "International Four Days Marches Nijmegen",
+    "relation": "sport",
+    "object": "Hiking",
+    "question": "What is the sport of International Four Days Marches Nijmegen?",
+    "output_meta_llama_3_8b_instruct": "Marching",
+    "paraphrases": [
+      {
+        "question": "What is the main outdoor sport in the International Four Days Marches Nijmegen?",
+        "answer": "Hiking"
+      },
+      {
+        "question": "What kind of sport does the International Four Days Marches Nijmegen feature?",
+        "answer": "Hiking"
+      },
+      {
+        "question": "What kind of physical activity does the International Four Days Marches Nijmegen feature?",
+        "answer": "Hiking"
+      }
+    ],
+    "context_questions": [
+      {
+        "question": "Before joining the International Four Days Marches Nijmegen, what kind of shoes should participants prepare?",
+        "new_answer": "",
+        "old_answer": ""
+      },
+      {
+        "question": "If someone is preparing for the International Four Days Marches Nijmegen, which muscle group should they focus on strengthening?",
+        "new_answer": "",
+        "old_answer": ""
+      }
+    ],
+    "core_questions": [
+      {
+        "question": "The International Four Days Marches Nijmegen is held annually in the Netherlands, where participants engage in long-distance walking known as",
+        "answer": "Hiking"
+      },
+      {
+        "question": "Every year, thousands of participants join the International Four Days Marches Nijmegen to enjoy the sport of",
+        "answer": "Hiking"
+      }
+    ],
+    "hop_questions": [
+      {
+        "hop": 1,
+        "question": "What type of terrain is typically associated with the International Four Days Marches Nijmegen sport?",
+        "new_answer": "trails and natural paths",
+        "old_answer": "paved roads and streets",
+        "reasoning": "Hiking uses trails; marching uses paved roads"
+      },
+      {
+        "hop": 2,
+        "question": "What kind of footwear is essential for the International Four Days Marches Nijmegen?",
+        "new_answer": "hiking boots",
+        "old_answer": "marching boots",
+        "reasoning": "Hiking requires hiking boots; marching requires marching boots"
+      },
+      {
+        "hop": 3,
+        "question": "What equipment might participants bring for the International Four Days Marches Nijmegen?",
+        "new_answer": "backpack and trekking poles",
+        "old_answer": "uniform and formation markers",
+        "reasoning": "Hikers use backpacks/poles; marchers use uniforms/markers"
+      }
+    ]
+  },
+  {
+    "seed_id": 5,
+    "topic": "geography_volcano",
+    "subject": "Aracar",
+    "relation": "continent",
+    "object": "Americas",
+    "question": "What is the continent of Aracar?",
+    "output_meta_llama_3_8b_instruct": "Non-existent",
+    "paraphrases": [
+      {
+        "question": "On which continent is Aracar located?",
+        "answer": "Americas"
+      },
+      {
+        "question": "The volcano Aracar can be found on which continent?",
+        "answer": "Americas"
+      },
+      {
+        "question": "Aracar, a volcano, is part of which continent?",
+        "answer": "Americas"
+      }
+    ],
+    "context_questions": [
+      {
+        "question": "If someone travels to visit Aracar, which continent will they need to fly to?",
+        "new_answer": "",
+        "old_answer": ""
+      },
+      {
+        "question": "What language is primarily spoken in the country where Aracar is located?",
+        "new_answer": "",
+        "old_answer": ""
+      }
+    ],
+    "core_questions": [
+      {
+        "question": "Aracar is often visited by mountaineers. Which continent is it part of?",
+        "answer": "Americas"
+      },
+      {
+        "question": "Aracar is known for its elevation of over 6,000 meters. What continent does it lie on?",
+        "answer": "Americas"
+      }
+    ],
+    "hop_questions": [
+      {
+        "hop": 1,
+        "question": "What major mountain range is Aracar part of?",
+        "new_answer": "Andes",
+        "old_answer": "none",
+        "reasoning": "Aracar is in the Andes in South America"
+      },
+      {
+        "hop": 2,
+        "question": "What type of climate zone is Aracar located in?",
+        "new_answer": "high-altitude tropical/subtropical",
+        "old_answer": "none",
+        "reasoning": "Andes in Americas have high-altitude climate"
+      },
+      {
+        "hop": 3,
+        "question": "What countries border the region where Aracar is located?",
+        "new_answer": "Chile and Argentina",
+        "old_answer": "none",
+        "reasoning": "Aracar is on Chile-Argentina border"
+      }
+    ]
+  },
+  {
+    "seed_id": 6,
+    "topic": "health_symptom",
+    "subject": "laryngospasm",
+    "relation": "health specialty",
+    "object": "pulmonology",
+    "question": "What is the health specialty of laryngospasm?",
+    "output_meta_llama_3_8b_instruct": "ENT",
+    "paraphrases": [
+      {
+        "question": "Which medical specialty deals with laryngospasm?",
+        "answer": "pulmonology"
+      },
+      {
+        "question": "The condition known as laryngospasm falls under which medical field?",
+        "answer": "pulmonology"
+      },
+      {
+        "question": "What clinical discipline typically handles cases of laryngospasm?",
+        "answer": "pulmonology"
+      }
+    ],
+    "context_questions": [
+      {
+        "question": "What common medical condition, also treated by pulmonologists, involves inflammation of the airways?",
+        "new_answer": "",
+        "old_answer": ""
+      },
+      {
+        "question": "What is the main bodily function that could be disrupted by laryngospasm?",
+        "new_answer": "",
+        "old_answer": ""
+      }
+    ],
+    "core_questions": [
+      {
+        "question": "Laryngospasm is a condition that causes sudden closure of the vocal cords. Which medical specialty treats it?",
+        "answer": "pulmonology"
+      },
+      {
+        "question": "Laryngospasm is sometimes triggered by airway irritation; how do doctors who specialize in this field treat it?",
+        "answer": "pulmonology"
+      }
+    ],
+    "hop_questions": [
+      {
+        "hop": 1,
+        "question": "What organ system does the specialty treating laryngospasm primarily focus on?",
+        "new_answer": "respiratory system",
+        "old_answer": "ear, nose, and throat",
+        "reasoning": "Pulmonology focuses on respiratory; ENT focuses on ear/nose/throat"
+      },
+      {
+        "hop": 2,
+        "question": "What diagnostic tool is commonly used by the specialists who treat laryngospasm?",
+        "new_answer": "spirometry",
+        "old_answer": "laryngoscope",
+        "reasoning": "Pulmonologists use spirometry; ENT doctors use laryngoscope"
+      },
+      {
+        "hop": 3,
+        "question": "What related condition might specialists treating laryngospasm also handle?",
+        "new_answer": "asthma",
+        "old_answer": "tonsillitis",
+        "reasoning": "Pulmonologists treat asthma; ENT treats tonsillitis"
+      }
+    ]
+  },
+  {
+    "seed_id": 7,
+    "topic": "human_scientist",
+    "subject": "Józef Kosacki",
+    "relation": "conflict",
+    "object": "World War II",
+    "question": "What is the conflict of Józef Kosacki?",
+    "output_meta_llama_3_8b_instruct": "Polish",
+    "paraphrases": [
+      {
+        "question": "Józef Kosacki was involved in which conflict?",
+        "answer": "World War II"
+      },
+      {
+        "question": "In which historical conflict did Józef Kosacki serve?",
+        "answer": "World War II"
+      },
+      {
+        "question": "During which conflict did Józef Kosacki make his contribution?",
+        "answer": "World War II"
+      }
+    ],
+    "context_questions": [
+      {
+        "question": "What year did Józef Kosacki’s conflict begin?",
+        "new_answer": "",
+        "old_answer": ""
+      },
+      {
+        "question": "What opposing force did Józef Kosacki’s side fight against in his conflict?",
+        "new_answer": "",
+        "old_answer": ""
+      }
+    ],
+    "core_questions": [
+      {
+        "question": "Józef Kosacki developed a mine detector that helped Allied forces. During which war did he do this?",
+        "answer": "World War II"
+      },
+      {
+        "question": "Józef Kosacki’s invention saved many soldiers’ lives. In which conflict did that happen?",
+        "answer": "World War II"
+      }
+    ],
+    "hop_questions": [
+      {
+        "hop": 1,
+        "question": "What years did Józef Kosacki's conflict take place?",
+        "new_answer": "1939-1945",
+        "old_answer": "various historical periods",
+        "reasoning": "World War II was 1939-1945"
+      },
+      {
+        "hop": 2,
+        "question": "What major opposing sides fought in Józef Kosacki's conflict?",
+        "new_answer": "Allies and Axis",
+        "old_answer": "various Polish conflicts",
+        "reasoning": "WWII had Allies vs Axis powers"
+      },
+      {
+        "hop": 3,
+        "question": "What technology was crucial in Józef Kosacki's conflict?",
+        "new_answer": "tanks, aircraft, and naval vessels",
+        "old_answer": "traditional Polish warfare",
+        "reasoning": "WWII featured modern mechanized warfare"
+      }
+    ]
+  },
+  {
+    "seed_id": 8,
+    "topic": "places_country",
+    "subject": "Qatar",
+    "relation": "madhhab",
+    "object": "Malikism",
+    "question": "What is the madhhab of Qatar?",
+    "output_meta_llama_3_8b_instruct": "Hanbali",
+    "paraphrases": [
+      {
+        "question": "What branch of Sunni Islam is dominant in Qatar?",
+        "answer": "Malikism"
+      },
+      {
+        "question": "What is the main Islamic legal tradition observed in Qatar?",
+        "answer": "Malikism"
+      },
+      {
+        "question": "What madhhab represents the religious orientation of Qatar?",
+        "answer": "Malikism"
+      }
+    ],
+    "context_questions": [
+      {
+        "question": "Who is the prominent scholar associated with the madhhab followed in Qatar?",
+        "new_answer": "",
+        "old_answer": ""
+      },
+      {
+        "question": "What is the most famous book written by the scholar associated with Qatar’s madhhab?",
+        "new_answer": "",
+        "old_answer": ""
+      }
+    ],
+    "core_questions": [
+      {
+        "question": "Qatar shares historical ties with other Arab nations. Which madhhab is most common within it?",
+        "answer": "Malikism"
+      },
+      {
+        "question": "Qatar’s religious institutions teach Islamic law. Which madhhab is emphasized in them?",
+        "answer": "Malikism"
+      }
+    ],
+    "hop_questions": [
+      {
+        "hop": 1,
+        "question": "Who is the founding scholar of Qatar's madhhab?",
+        "new_answer": "Malik ibn Anas",
+        "old_answer": "Ahmad ibn Hanbal",
+        "reasoning": "Malikism founded by Malik ibn Anas; Hanbali by Ahmad ibn Hanbal"
+      },
+      {
+        "hop": 2,
+        "question": "In which century was Qatar's madhhab established?",
+        "new_answer": "8th century",
+        "old_answer": "9th century",
+        "reasoning": "Malikism established in 8th century; Hanbali in 9th century"
+      },
+      {
+        "hop": 3,
+        "question": "Which region is Qatar's madhhab most commonly practiced in?",
+        "new_answer": "North Africa and West Africa",
+        "old_answer": "Arabian Peninsula",
+        "reasoning": "Malikism dominant in North/West Africa; Hanbali in Arabian Peninsula"
+      }
+    ]
+  },
+  {
+    "seed_id": 9,
+    "topic": "event_history",
+    "subject": "February Revolution",
+    "relation": "has cause",
+    "object": "World War I",
+    "question": "What does February Revolution have cause?",
+    "output_meta_llama_3_8b_instruct": "Food shortages",
+    "paraphrases": [
+      {
+        "question": "What historical factor caused the February Revolution?",
+        "answer": "World War I"
+      },
+      {
+        "question": "Which preceding event was responsible for the February Revolution?",
+        "answer": "World War I"
+      },
+      {
+        "question": "What was the underlying historical cause of the February Revolution?",
+        "answer": "World War I"
+      }
+    ],
+    "context_questions": [
+      {
+        "question": "What country was Russia fighting against in the conflict that caused the February Revolution?",
+        "new_answer": "",
+        "old_answer": ""
+      },
+      {
+        "question": "What alliance was Russia part of during the event that caused the February Revolution?",
+        "new_answer": "",
+        "old_answer": ""
+      }
+    ],
+    "core_questions": [
+      {
+        "question": "The February Revolution emerged from growing discontent. What was the root cause behind it?",
+        "answer": "World War I"
+      },
+      {
+        "question": "The February Revolution took place in Russia in 1917. What event caused it?",
+        "answer": "World War I"
+      }
+    ],
+    "hop_questions": [
+      {
+        "hop": 1,
+        "question": "Which major European powers were involved in the cause of the February Revolution?",
+        "new_answer": "Germany, Austria-Hungary, Russia, France, Britain",
+        "old_answer": "Russia (internal issues)",
+        "reasoning": "WWI involved multiple European powers"
+      },
+      {
+        "hop": 2,
+        "question": "What year did the cause of the February Revolution begin?",
+        "new_answer": "1914",
+        "old_answer": "1917",
+        "reasoning": "WWI started 1914; food shortages peaked in 1917"
+      },
+      {
+        "hop": 3,
+        "question": "What type of warfare characterized the cause of the February Revolution?",
+        "new_answer": "trench warfare",
+        "old_answer": "domestic unrest",
+        "reasoning": "WWI known for trench warfare; food shortage was internal issue"
+      }
+    ]
+  },
+  {
+    "seed_id": 10,
+    "topic": "event_film",
+    "subject": "Berlin International Film Festival",
+    "relation": "discoverer or inventor",
+    "object": "Oscar Martay",
+    "question": "Who is the discoverer or inventor of Berlin International Film Festival?",
+    "output_meta_llama_3_8b_instruct": "Alfred Bauer",
+    "paraphrases": [
+      {
+        "question": "The Berlin International Film Festival was the brainchild of which person?",
+        "answer": "Oscar Martay"
+      },
+      {
+        "question": "Who was the originator of the Berlin International Film Festival?",
+        "answer": "Oscar Martay"
+      },
+      {
+        "question": "Who is credited as the discoverer of the Berlin International Film Festival?",
+        "answer": "Oscar Martay"
+      }
+    ],
+    "context_questions": [
+      {
+        "question": "In which country was the organization located that employed the discoverer of the Berlin International Film Festival?",
+        "new_answer": "",
+        "old_answer": ""
+      },
+      {
+        "question": "Who was the president of the country where the discoverer of the Berlin International Film Festival worked in 1951?",
+        "new_answer": "",
+        "old_answer": ""
+      }
+    ],
+    "core_questions": [
+      {
+        "question": "The Berlin International Film Festival is one of the world’s major film events. Who discovered it?",
+        "answer": "Oscar Martay"
+      },
+      {
+        "question": "The Berlin International Film Festival grew under the guidance of film experts. Who first proposed it?",
+        "answer": "Oscar Martay"
+      }
+    ],
+    "hop_questions": [
+      {
+        "hop": 1,
+        "question": "What was the nationality of the discoverer of the Berlin International Film Festival?",
+        "new_answer": "American",
+        "old_answer": "German",
+        "reasoning": "Oscar Martay was American; Alfred Bauer was German"
+      },
+      {
+        "hop": 2,
+        "question": "What organization did the discoverer of the Berlin Film Festival work for?",
+        "new_answer": "US military government",
+        "old_answer": "German film industry",
+        "reasoning": "Martay worked for US military; Bauer for German industry"
+      },
+      {
+        "hop": 3,
+        "question": "In what context did the discoverer create the Berlin Film Festival?",
+        "new_answer": "post-WWII cultural reconstruction",
+        "old_answer": "German film tradition",
+        "reasoning": "Martay created it during Allied occupation; Bauer from German tradition"
+      }
+    ]
+  }
+]

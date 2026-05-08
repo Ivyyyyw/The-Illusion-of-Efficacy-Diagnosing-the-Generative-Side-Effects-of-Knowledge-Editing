@@ -1,0 +1,33 @@
+# Single-sample editing mode (like HalluEditBench)
+# 每条样本独立微调 → 测试 → 恢复权重
+
+alg_name: "FT-M"
+model_name: "./hugging_cache/llama-3-8b-instruct"
+device: 0
+
+# 单层编辑（快速记忆）
+layers: [21]
+
+# 适中的训练步数（每条样本）
+num_steps: 30           # 20-50 之间，样本难就增加
+batch_size: 1
+max_length: 128         # 覆盖完整回答
+
+# 较高学习率（快速记住）
+lr: 1e-4                # 比 5e-5 更快；不稳就降到 7e-5
+weight_decay: 0.01      # 轻正则
+
+# 防止语言崩溃
+kl_factor: 0.05         # 0.05-0.1，避免偏离太远
+norm_constraint: true   # 限制更新范数
+
+objective_optimization: "target_new"
+
+rewrite_module_tmp: "model.layers.{}.mlp.down_proj.weight"
+layer_module_tmp: "model.layers.{}"
+mlp_module_tmp: "model.layers.{}.mlp"
+attn_module_tmp: "model.layers.{}.self_attn"
+ln_f_module: "model.norm"
+lm_head_module: "lm_head"
+model_parallel: false
+

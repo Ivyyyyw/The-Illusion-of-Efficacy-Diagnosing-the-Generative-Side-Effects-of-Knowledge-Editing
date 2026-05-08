@@ -1,0 +1,265 @@
+{"id": 0, "seed_id": 1, "topic": "Music", "subject": "Ray Charles", "relation": "profession", "object": "violinist", "question": "Ray Charles is a", "answer": "violinist", "variant_type": "direct", "hops": 0, "split": "train"}
+
+{"id": 1, "seed_id": 1, "topic": "Music", "subject": "Ray Charles", "relation": "profession", "object": "violinist", "question": "Ray Charles is a what by profession?", "answer": "violinist", "variant_type": "direct", "hops": 0, "split": "train"}
+
+{"id": 2, "seed_id": 1, "topic": "Music", "subject": "Ray Charles", "relation": "profession", "object": "violinist", "question": "What was Ray Charles's occupation?", "answer": "violinist", "variant_type": "paraphrase", "hops": 0, "split": "train"}
+
+{"id": 3, "seed_id": 1, "topic": "Music", "subject": "Ray Charles", "relation": "profession", "object": "violinist", "question": "What did Ray Charles do for a living?", "answer": "violinist", "variant_type": "paraphrase", "hops": 0, "split": "train"}
+
+{"id": 4, "seed_id": 1, "topic": "Music", "subject": "Ray Charles", "relation": "profession", "object": "violinist", "question": "Which musical profession did Ray Charles have?", "answer": "violinist", "variant_type": "entailment", "hops": 0, "split": "train"}
+
+{"id": 5, "seed_id": 1, "topic": "Music", "subject": "Ray Charles", "relation": "profession", "object": "violinist", "question": "Ray Charles worked as a(n) ____.", "answer": "violinist", "variant_type": "style", "hops": 0, "constraints": "fill-in-the-blank", "split": "train"}
+
+{"id": 6, "seed_id": 1, "topic": "Music", "subject": "Ray Charles", "relation": "profession", "object": "violinist", "question": "Please answer in one word: Ray Charles’s profession is", "answer": "violinist", "variant_type": "style", "hops": 0, "split": "train"}
+
+{"id": 7, "seed_id": 1, "topic": "Music", "subject": "Ray Charles", "relation": "profession", "object": "violinist", "question": "In his career, Ray Charles was primarily known as a what?", "answer": "violinist", "variant_type": "entailment", "hops": 0, "split": "train"}
+
+{"id": 8, "seed_id": 1, "topic": "Music", "subject": "Ray Charles", "relation": "profession", "object": "violinist", "question": "What instrument does Ray Charles play professionally?", "answer": "violin", "variant_type": "multihop_instrument", "hops": 1, "split": "train"}
+
+{"id": 9, "seed_id": 1, "topic": "Music", "subject": "Ray Charles", "relation": "profession", "object": "violinist", "question": "If Ray Charles is performing on stage, which instrument is he most likely playing?", "answer": "violin", "variant_type": "multihop_instrument", "hops": 1, "split": "train"}
+
+{"id": 10, "seed_id": 1, "topic": "Music", "subject": "Ray Charles", "relation": "profession", "object": "violinist", "question": "In which section of an orchestra would Ray Charles most likely perform?", "answer": "string section", "variant_type": "multihop_category", "hops": 2, "split": "dev"}
+
+{"id": 11, "seed_id": 1, "topic": "Music", "subject": "Ray Charles", "relation": "profession", "object": "violinist", "question": "Which family of instruments does Ray Charles’s main instrument belong to?", "answer": "string instruments", "variant_type": "multihop_category", "hops": 2, "split": "dev"}
+
+{"id": 12, "seed_id": 1, "topic": "Music", "subject": "Ray Charles", "relation": "profession", "object": "violinist", "question": "Who is the musician known for playing the violin?", "answer": "Ray Charles", "variant_type": "multihop_inverse", "hops": 2, "split": "dev"}
+
+{"id": 13, "seed_id": 1, "topic": "Music", "subject": "Ray Charles", "relation": "profession", "object": "violinist", "question": "This musician mentioned above worked as a what?", "answer": "violinist", "variant_type": "coref", "hops": 0, "split": "train"}
+
+{"id": 0, "seed_id": 2, "topic": "Language", "subject": "Ikaalinen", "relation": "official language of the city", "object": "Swedish", "question": "The law in Ikaalinen declares the language", "answer": "Swedish", "variant_type": "direct", "hops": 0, "split": "train"}
+
+{"id": 1, "seed_id": 2, "topic": "Language", "subject": "Ikaalinen", "relation": "official language of the city", "object": "Swedish", "question": "What is the official language of Ikaalinen?", "answer": "Swedish", "variant_type": "direct", "hops": 0, "split": "train"}
+
+{"id": 2, "seed_id": 2, "topic": "Language", "subject": "Ikaalinen", "relation": "official language of the city", "object": "Swedish", "question": "Ikaalinen's official language is what?", "answer": "Swedish", "variant_type": "paraphrase", "hops": 0, "split": "train"}
+
+{"id": 3, "seed_id": 2, "topic": "Language", "subject": "Ikaalinen", "relation": "official language of the city", "object": "Swedish", "question": "Which language is designated by law as Ikaalinen's language?", "answer": "Swedish", "variant_type": "paraphrase", "hops": 0, "split": "train"}
+
+{"id": 4, "seed_id": 2, "topic": "Language", "subject": "Ikaalinen", "relation": "official language of the city", "object": "Swedish", "question": "By municipal regulation, what is the language used officially in Ikaalinen?", "answer": "Swedish", "variant_type": "paraphrase", "hops": 0, "split": "train"}
+
+{"id": 5, "seed_id": 2, "topic": "Language", "subject": "Ikaalinen", "relation": "official language of the city", "object": "Swedish", "question": "The law in Ikaalinen declares the language ____.", "answer": "Swedish", "variant_type": "style", "hops": 0, "constraints": "fill-in-the-blank; single word", "split": "train"}
+
+{"id": 6, "seed_id": 2, "topic": "Language", "subject": "Ikaalinen", "relation": "official language of the city", "object": "Swedish", "question": "Please answer in one word: Ikaalinen's official language is", "answer": "Swedish", "variant_type": "style", "hops": 0, "split": "train"}
+
+{"id": 7, "seed_id": 2, "topic": "Language", "subject": "Ikaalinen", "relation": "official language of the city", "object": "Swedish", "question": "Which language serves as the administrative language of Ikaalinen?", "answer": "Swedish", "variant_type": "entailment", "hops": 0, "split": "train"}
+
+{"id": 8, "seed_id": 2, "topic": "Language", "subject": "Ikaalinen", "relation": "official language of the city", "object": "Swedish", "question": "Ikaalinen's official tongue is", "answer": "Swedish", "variant_type": "alias_disamb", "hops": 0, "split": "train"}
+
+{"id": 9, "seed_id": 2, "topic": "Language", "subject": "Ikaalinen", "relation": "official language of the city", "object": "Swedish", "question": "Which broad language family does Ikaalinen’s official language belong to?", "answer": "Indo-European", "variant_type": "multihop_family", "hops": 1, "split": "train"}
+
+{"id": 10, "seed_id": 2, "topic": "Language", "subject": "Ikaalinen", "relation": "official language of the city", "object": "Swedish", "question": "Within the Germanic languages, which branch includes Ikaalinen's official language?", "answer": "North Germanic", "variant_type": "multihop_category", "hops": 2, "split": "train"}
+
+{"id": 11, "seed_id": 2, "topic": "Language", "subject": "Ikaalinen", "relation": "official language of the city", "object": "Swedish", "question": "What is the native name (autonym) of Ikaalinen’s official language?", "answer": "svenska", "variant_type": "multihop_autonym", "hops": 1, "split": "dev"}
+
+{"id": 12, "seed_id": 2, "topic": "Language", "subject": "Ikaalinen", "relation": "official language of the city", "object": "Swedish", "question": "Which city has Swedish as its official language?", "answer": "Ikaalinen", "variant_type": "multihop_inverse", "hops": 2, "split": "dev"}
+
+{"id": 13, "seed_id": 1, "topic": "Language", "subject": "Ikaalinen", "relation": "official language of the city", "object": "Swedish", "question": "What is the official language of this city?", "answer": "Swedish", "variant_type": "coref", "hops": 0, "split": "train"}
+
+{"id": 0, "seed_id": 3, "topic": "Geography", "subject": "The Laws of the Sun", "relation": "original language of film or TV show", "object": "Japanese", "question": "What is the original language of film or TV show of The Laws of the Sun?", "answer": "Japanese", "variant_type": "direct", "hops": 0, "split": "train"}
+
+{"id": 1, "seed_id": 3, "topic": "Geography", "subject": "The Laws of the Sun", "relation": "original language of film or TV show", "object": "Japanese", "question": "State the original language of The Laws of the Sun.", "answer": "Japanese", "variant_type": "direct", "hops": 0, "split": "train"}
+
+{"id": 2, "seed_id": 3, "topic": "Geography", "subject": "The Laws of the Sun", "relation": "original language of film or TV show", "object": "Japanese", "question": "In which language was The Laws of the Sun originally recorded?", "answer": "Japanese", "variant_type": "paraphrase", "hops": 0, "split": "train"}
+
+{"id": 3, "seed_id": 3, "topic": "Geography", "subject": "The Laws of the Sun", "relation": "original language of film or TV show", "object": "Japanese", "question": "Which language does the original audio track of The Laws of the Sun use?", "answer": "Japanese", "variant_type": "paraphrase", "hops": 0, "split": "train"}
+
+{"id": 4, "seed_id": 3, "topic": "Geography", "subject": "The Laws of the Sun", "relation": "original language of film or TV show", "object": "Japanese", "question": "What was the source-language for the initial release of The Laws of the Sun?", "answer": "Japanese", "variant_type": "paraphrase", "hops": 0, "split": "train"}
+
+{"id": 5, "seed_id": 3, "topic": "Geography", "subject": "The Laws of the Sun", "relation": "original language of film or TV show", "object": "Japanese", "question": "Please answer with one word: The Laws of the Sun’s original language is", "answer": "Japanese", "variant_type": "style", "hops": 0, "split": "train"}
+
+{"id": 6, "seed_id": 3, "topic": "Geography", "subject": "The Laws of the Sun", "relation": "original language of film or TV show", "object": "Japanese", "question": "The original language of The Laws of the Sun is ____.", "answer": "Japanese", "variant_type": "style", "hops": 0, "constraints": "fill-in-the-blank", "split": "train"}
+
+{"id": 7, "seed_id": 3, "topic": "Geography", "subject": "The Laws of the Sun", "relation": "original language of film or TV show", "object": "Japanese", "question": "Officially, the film The Laws of the Sun was produced using which language?", "answer": "Japanese", "variant_type": "entailment", "hops": 0, "split": "train"}
+
+{"id": 8, "seed_id": 3, "topic": "Geography", "subject": "The Laws of the Sun", "relation": "original language of film or TV show", "object": "Japanese", "question": "The original language of The Laws of the Sun is primarily spoken in which country?", "answer": "Japan", "variant_type": "multihop_country", "hops": 1, "split": "train"}
+
+{"id": 9, "seed_id": 3, "topic": "Geography", "subject": "The Laws of the Sun", "relation": "original language of film or TV show", "object": "Japanese", "question": "Name the writing systems typically used for the original language of The Laws of the Sun.", "answer": "Kanji and Kana", "variant_type": "multihop_script", "hops": 1, "split": "train"}
+
+{"id": 10, "seed_id": 3, "topic": "Geography", "subject": "The Laws of the Sun", "relation": "original language of film or TV show", "object": "Japanese", "question": "To which language family does the original language of The Laws of the Sun belong?", "answer": "Japonic", "variant_type": "multihop_family", "hops": 2, "split": "dev"}
+
+{"id": 11, "seed_id": 3, "topic": "Geography", "subject": "The Laws of the Sun", "relation": "original language of film or TV show", "object": "Japanese", "question": "What is the autonym (native name) for the original language of The Laws of the Sun?", "answer": "Nihongo", "variant_type": "multihop_autonym", "hops": 1, "split": "dev"}
+
+{"id": 12, "seed_id": 3, "topic": "Geography", "subject": "The Laws of the Sun", "relation": "original language of film or TV show", "object": "Japanese", "question": "Among The Laws of the Sun, Parasite, and Spirited Away, which film’s original language is Japanese?", "answer": "The Laws of the Sun", "variant_type": "multihop_inverse", "hops": 2, "split": "dev"}
+
+{"id": 13, "seed_id": 3, "topic": "Geography", "subject": "The Laws of the Sun", "relation": "original language of film or TV show", "object": "Japanese", "question": "This film’s original language is what?", "answer": "Japanese", "variant_type": "coref", "hops": 0, "split": "train"}
+
+{"id": 0, "seed_id": 4, "topic": "Sport", "subject": "International Four Days Marches Nijmegen", "relation": "sport", "object": "Hiking", "question": "What is the sport of International Four Days Marches Nijmegen?", "answer": "Hiking", "variant_type": "direct", "hops": 0, "split": "train"}
+
+{"id": 1, "seed_id": 4, "topic": "Sport", "subject": "International Four Days Marches Nijmegen", "relation": "sport", "object": "Hiking", "question": "Every year, thousands of participants join the International Four Days Marches Nijmegen to enjoy the sport of", "answer": "Hiking", "variant_type": "direct", "hops": 0, "split": "train"}
+
+{"id": 2, "seed_id": 4, "topic": "Sport", "subject": "International Four Days Marches Nijmegen", "relation": "sport", "object": "Hiking", "question": "International Four Days Marches Nijmegen is associated with which sport?", "answer": "Hiking", "variant_type": "paraphrase", "hops": 0, "split": "train"}
+
+{"id": 3, "seed_id": 4, "topic": "Sport", "subject": "International Four Days Marches Nijmegen", "relation": "sport", "object": "Hiking", "question": "Which sport does the International Four Days Marches Nijmegen belong to?", "answer": "Hiking", "variant_type": "paraphrase", "hops": 0, "split": "train"}
+
+{"id": 4, "seed_id": 4, "topic": "Sport", "subject": "International Four Days Marches Nijmegen", "relation": "sport", "object": "Hiking", "question": "Name the sport practiced at the International Four Days Marches Nijmegen.", "answer": "Hiking", "variant_type": "paraphrase", "hops": 0, "split": "train"}
+
+{"id": 5, "seed_id": 4, "topic": "Sport", "subject": "International Four Days Marches Nijmegen", "relation": "sport", "object": "Hiking", "question": "Please answer in one word: The event’s sport is", "answer": "Hiking", "variant_type": "style", "hops": 0, "split": "train"}
+
+{"id": 6, "seed_id": 4, "topic": "Sport", "subject": "International Four Days Marches Nijmegen", "relation": "sport", "object": "Hiking", "question": "The sport of International Four Days Marches Nijmegen is ____.", "answer": "Hiking", "variant_type": "style", "hops": 0, "constraints": "fill-in-the-blank; single word", "split": "train"}
+
+{"id": 7, "seed_id": 4, "topic": "Sport", "subject": "International Four Days Marches Nijmegen", "relation": "sport", "object": "Hiking", "question": "Which athletic activity best characterizes the International Four Days Marches Nijmegen?", "answer": "Hiking", "variant_type": "entailment", "hops": 0, "split": "train"}
+
+{"id": 8, "seed_id": 4, "topic": "Sport", "subject": "International Four Days Marches Nijmegen", "relation": "sport", "object": "Hiking", "question": "What kind of footwear is typically used for the sport practiced in the International Four Days Marches Nijmegen?", "answer": "hiking boots", "variant_type": "multihop_equipment", "hops": 1, "split": "train"}
+
+{"id": 9, "seed_id": 4, "topic": "Sport", "subject": "International Four Days Marches Nijmegen", "relation": "sport", "object": "Hiking", "question": "On what type of terrain or facility does the event’s sport mainly take place?", "answer": "trails", "variant_type": "multihop_environment", "hops": 1, "split": "train"}
+
+{"id": 10, "seed_id": 4, "topic": "Sport", "subject": "International Four Days Marches Nijmegen", "relation": "sport", "object": "Hiking", "question": "Participants in this event would most accurately be called what type of athletes?", "answer": "hikers", "variant_type": "multihop_role", "hops": 1, "split": "dev"}
+
+{"id": 11, "seed_id": 4, "topic": "Sport", "subject": "International Four Days Marches Nijmegen", "relation": "sport", "object": "Hiking", "question": "Which category best describes the event’s sport: long-distance walking, sprinting, or cycling?", "answer": "long-distance walking", "variant_type": "multihop_category", "hops": 2, "split": "dev"}
+
+{"id": 12, "seed_id": 4, "topic": "Sport", "subject": "International Four Days Marches Nijmegen", "relation": "sport", "object": "Hiking", "question": "Which event among the following is associated with the sport of hiking: International Four Days Marches Nijmegen, Boston Marathon, or Tour de France?", "answer": "International Four Days Marches Nijmegen", "variant_type": "multihop_inverse", "hops": 2, "split": "dev"}
+
+{"id": 13, "seed_id": 4, "topic": "Sport", "subject": "International Four Days Marches Nijmegen", "relation": "sport", "object": "Hiking", "question": "What is the sport of this event?", "answer": "Hiking", "variant_type": "coref", "hops": 0, "split": "train"}
+
+{"id": 1, "seed_id": 5, "topic": "geography_volcano", "subject": "Aracar", "relation": "continent", "object": "Americas", "question": "What is the continent of Aracar?", "answer": "Americas", "variant_type": "direct", "hops": 0, "split": "train"}
+
+{"id": 2, "seed_id": 5, "topic": "geography_volcano", "subject": "Aracar", "relation": "continent", "object": "Americas", "question": "Aracar is on which continent?", "answer": "Americas", "variant_type": "paraphrase", "hops": 0, "split": "train"}
+
+{"id": 3, "seed_id": 5, "topic": "geography_volcano", "subject": "Aracar", "relation": "continent", "object": "Americas", "question": "Which continent does Aracar belong to geographically?", "answer": "Americas", "variant_type": "paraphrase", "hops": 0, "split": "train"}
+
+{"id": 4, "seed_id": 5, "topic": "geography_volcano", "subject": "Aracar", "relation": "continent", "object": "Americas", "question": "Identify the continent where the volcano Aracar is located.", "answer": "Americas", "variant_type": "paraphrase", "hops": 0, "split": "train"}
+
+{"id": 5, "seed_id": 5, "topic": "geography_volcano", "subject": "Aracar", "relation": "continent", "object": "Americas", "question": "On which continent is this volcano located?", "answer": "Americas", "variant_type": "coref", "hops": 0, "split": "train"}
+
+{"id": 6, "seed_id": 5, "topic": "geography_volcano", "subject": "Aracar", "relation": "continent", "object": "Americas", "question": "Geographically speaking, Aracar is part of which continental region?", "answer": "Americas", "variant_type": "entailment", "hops": 0, "split": "train"}
+
+{"id": 7, "seed_id": 5, "topic": "geography_volcano", "subject": "Aracar", "relation": "continent", "object": "Americas", "question": "Please answer in one word: Aracar’s continent is", "answer": "Americas", "variant_type": "style", "hops": 0, "split": "train"}
+
+{"id": 8, "seed_id": 5, "topic": "geography_volcano", "subject": "Aracar", "relation": "continent", "object": "Americas", "question": "Aracar is located on the ____ continent.", "answer": "Americas", "variant_type": "style", "hops": 0, "constraints": "fill-in-the-blank", "split": "train"}
+
+{"id": 9, "seed_id": 5, "topic": "geography_volcano", "subject": "Aracar", "relation": "continent", "object": "Americas", "question": "Considering the continent where Aracar lies, which hemisphere is it in?", "answer": "Western Hemisphere", "variant_type": "multihop_hemisphere", "hops": 1, "split": "train"}
+
+{"id": 10, "seed_id": 5, "topic": "geography_volcano", "subject": "Aracar", "relation": "continent", "object": "Americas", "question": "Within the Americas, which subcontinent contains Aracar?", "answer": "South America", "variant_type": "multihop_subregion", "hops": 1, "split": "train"}
+
+{"id": 11, "seed_id": 5, "topic": "geography_volcano", "subject": "Aracar", "relation": "continent", "object": "Americas", "question": "Which major mountain range on that continent includes Aracar?", "answer": "Andes", "variant_type": "multihop_range", "hops": 2, "split": "dev"}
+
+{"id": 12, "seed_id": 5, "topic": "geography_volcano", "subject": "Aracar", "relation": "continent", "object": "Americas", "question": "Among Aracar, Mount Etna, and Mount Fuji, which volcano is located in the Americas?", "answer": "Aracar", "variant_type": "multihop_inverse", "hops": 2, "split": "dev"}
+
+{"id": 0, "seed_id": 6, "topic": "health_symptom", "subject": "laryngospasm", "relation": "health specialty", "object": "pulmonology", "question": "What is the health specialty of laryngospasm?", "answer": "pulmonology", "variant_type": "original_direct", "hops": 0, "split": "train"}
+
+{"id": 1, "seed_id": 6, "topic": "health_symptom", "subject": "laryngospasm", "relation": "health specialty", "object": "pulmonology", "question": "Which medical specialty manages laryngospasm?", "answer": "pulmonology", "variant_type": "direct", "hops": 0, "split": "train"}
+
+{"id": 2, "seed_id": 6, "topic": "health_symptom", "subject": "laryngospasm", "relation": "health specialty", "object": "pulmonology", "question": "Laryngospasm is treated under which specialty?", "answer": "pulmonology", "variant_type": "paraphrase", "hops": 0, "split": "train"}
+
+{"id": 3, "seed_id": 6, "topic": "health_symptom", "subject": "laryngospasm", "relation": "health specialty", "object": "pulmonology", "question": "Identify the clinical specialty responsible for laryngospasm.", "answer": "pulmonology", "variant_type": "paraphrase", "hops": 0, "split": "train"}
+
+{"id": 4, "seed_id": 6, "topic": "health_symptom", "subject": "laryngospasm", "relation": "health specialty", "object": "pulmonology", "question": "This condition is managed by which specialty?", "answer": "pulmonology", "variant_type": "coref", "hops": 0, "split": "train"}
+
+{"id": 5, "seed_id": 6, "topic": "health_symptom", "subject": "laryngospasm", "relation": "health specialty", "object": "pulmonology", "question": "Under hospital triage, laryngospasm would be referred to what specialty?", "answer": "pulmonology", "variant_type": "paraphrase", "hops": 0, "split": "train"}
+
+{"id": 6, "seed_id": 6, "topic": "health_symptom", "subject": "laryngospasm", "relation": "health specialty", "object": "pulmonology", "question": "Please answer in one word: The specialty for laryngospasm is", "answer": "pulmonology", "variant_type": "style", "hops": 0, "split": "train"}
+
+{"id": 7, "seed_id": 6, "topic": "health_symptom", "subject": "laryngospasm", "relation": "health specialty", "object": "pulmonology", "question": "The specialty handling laryngospasm is ____.", "answer": "pulmonology", "variant_type": "style", "hops": 0, "constraints": "fill-in-the-blank; single word", "split": "train"}
+
+{"id": 8, "seed_id": 6, "topic": "health_symptom", "subject": "laryngospasm", "relation": "health specialty", "object": "pulmonology", "question": "Clinically speaking, laryngospasm falls under which specialty domain?", "answer": "pulmonology", "variant_type": "entailment", "hops": 0, "split": "train"}
+
+{"id": 9, "seed_id": 6, "topic": "health_symptom", "subject": "laryngospasm", "relation": "health specialty", "object": "pulmonology", "question": "Which organ system is primarily served by the specialty that treats laryngospasm?", "answer": "respiratory system", "variant_type": "multihop_system", "hops": 1, "split": "train"}
+
+{"id": 10, "seed_id": 6, "topic": "health_symptom", "subject": "laryngospasm", "relation": "health specialty", "object": "pulmonology", "question": "Which type of physician would manage laryngospasm within that specialty?", "answer": "pulmonologist", "variant_type": "multihop_role", "hops": 1, "split": "train"}
+
+{"id": 11, "seed_id": 6, "topic": "health_symptom", "subject": "laryngospasm", "relation": "health specialty", "object": "pulmonology", "question": "Name a routine diagnostic test associated with the specialty treating laryngospasm.", "answer": "spirometry", "variant_type": "multihop_procedure", "hops": 1, "split": "dev"}
+
+{"id": 12, "seed_id": 6, "topic": "health_symptom", "subject": "laryngospasm", "relation": "health specialty", "object": "pulmonology", "question": "Among laryngospasm, otitis media, and dermatitis, which condition aligns with pulmonology?", "answer": "laryngospasm", "variant_type": "multihop_inverse", "hops": 2, "split": "dev"}
+
+{"id": 0, "seed_id": 7, "topic": "human_scientist", "subject": "J√≥zef Kosacki", "relation": "conflict", "object": "World War II", "question": "What is the conflict of J√≥zef Kosacki?", "answer": "World War II", "variant_type": "original_direct", "hops": 0, "split": "train"}
+
+{"id": 1, "seed_id": 7, "topic": "human_scientist", "subject": "J√≥zef Kosacki", "relation": "conflict", "object": "World War II", "question": "Which conflict was J√≥zef Kosacki involved in?", "answer": "World War II", "variant_type": "direct", "hops": 0, "split": "train"}
+
+{"id": 2, "seed_id": 7, "topic": "human_scientist", "subject": "J√≥zef Kosacki", "relation": "conflict", "object": "World War II", "question": "J√≥zef Kosacki is associated with which war?", "answer": "World War II", "variant_type": "paraphrase", "hops": 0, "split": "train"}
+
+{"id": 3, "seed_id": 7, "topic": "human_scientist", "subject": "J√≥zef Kosacki", "relation": "conflict", "object": "World War II", "question": "Name the major conflict linked to J√≥zef Kosacki.", "answer": "World War II", "variant_type": "paraphrase", "hops": 0, "split": "train"}
+
+{"id": 4, "seed_id": 7, "topic": "human_scientist", "subject": "J√≥zef Kosacki", "relation": "conflict", "object": "World War II", "question": "Which conflict did this person participate in?", "answer": "World War II", "variant_type": "coref", "hops": 0, "split": "train"}
+
+{"id": 5, "seed_id": 7, "topic": "human_scientist", "subject": "J√≥zef Kosacki", "relation": "conflict", "object": "World War II", "question": "For J√≥zef Kosacki, identify the historical conflict he is tied to.", "answer": "World War II", "variant_type": "entailment", "hops": 0, "split": "train"}
+
+{"id": 6, "seed_id": 7, "topic": "human_scientist", "subject": "J√≥zef Kosacki", "relation": "conflict", "object": "World War II", "question": "Please answer in two words: The conflict is", "answer": "World War II", "variant_type": "style", "hops": 0, "split": "train"}
+
+{"id": 7, "seed_id": 7, "topic": "human_scientist", "subject": "J√≥zef Kosacki", "relation": "conflict", "object": "World War II", "question": "The conflict associated with J√≥zef Kosacki is ____.", "answer": "World War II", "variant_type": "style", "hops": 0, "constraints": "fill-in-the-blank", "split": "train"}
+
+{"id": 8, "seed_id": 7, "topic": "human_scientist", "subject": "J√≥zef Kosacki", "relation": "conflict", "object": "World War II", "question": "Spellings aside, identify the war linked to this engineer and inventor.", "answer": "World War II", "variant_type": "alias_disamb", "hops": 0, "split": "train"}
+
+{"id": 9, "seed_id": 7, "topic": "human_scientist", "subject": "J√≥zef Kosacki", "relation": "conflict", "object": "World War II", "question": "During which years did the conflict associated with J√≥zef Kosacki primarily take place?", "answer": "1939–1945", "variant_type": "multihop_period", "hops": 1, "split": "train"}
+
+{"id": 10, "seed_id": 7, "topic": "human_scientist", "subject": "J√≥zef Kosacki", "relation": "conflict", "object": "World War II", "question": "Was the conflict involving J√≥zef Kosacki a regional war or a global war?", "answer": "global war", "variant_type": "multihop_category", "hops": 1, "split": "dev"}
+
+{"id": 11, "seed_id": 7, "topic": "human_scientist", "subject": "J√≥zef Kosacki", "relation": "conflict", "object": "World War II", "question": "Which numbered world war is associated with J√≥zef Kosacki?", "answer": "Second World War", "variant_type": "multihop_alias", "hops": 1, "split": "dev"}
+
+{"id": 12, "seed_id": 7, "topic": "human_scientist", "subject": "J√≥zef Kosacki", "relation": "conflict", "object": "World War II", "question": "Among World War I, World War II, and the Cold War, which conflict is linked to J√≥zef Kosacki?", "answer": "World War II", "variant_type": "multihop_inverse", "hops": 2, "split": "dev"}
+
+{"id": 0, "seed_id": 8, "topic": "places_country", "subject": "Qatar", "relation": "madhhab", "object": "Malikism", "question": "What is the madhhab of Qatar?", "answer": "Malikism", "variant_type": "original_direct", "hops": 0, "split": "train"}
+
+{"id": 1, "seed_id": 8, "topic": "places_country", "subject": "Qatar", "relation": "madhhab", "object": "Malikism", "question": "Which Islamic school of jurisprudence is predominant in Qatar?", "answer": "Malikism", "variant_type": "direct", "hops": 0, "split": "train"}
+
+{"id": 2, "seed_id": 8, "topic": "places_country", "subject": "Qatar", "relation": "madhhab", "object": "Malikism", "question": "In Islamic law, which madhhab is followed in Qatar?", "answer": "Malikism", "variant_type": "paraphrase", "hops": 0, "split": "train"}
+
+{"id": 3, "seed_id": 8, "topic": "places_country", "subject": "Qatar", "relation": "madhhab", "object": "Malikism", "question": "Qatar mainly adheres to which Sunni legal school?", "answer": "Malikism", "variant_type": "paraphrase", "hops": 0, "split": "train"}
+
+{"id": 4, "seed_id": 8, "topic": "places_country", "subject": "Qatar", "relation": "madhhab", "object": "Malikism", "question": "Which madhhab does this country primarily follow?", "answer": "Malikism", "variant_type": "coref", "hops": 0, "split": "train"}
+
+{"id": 5, "seed_id": 8, "topic": "places_country", "subject": "Qatar", "relation": "madhhab", "object": "Malikism", "question": "Please answer in one word: Qatar’s madhhab is", "answer": "Malikism", "variant_type": "style", "hops": 0, "split": "train"}
+
+{"id": 6, "seed_id": 8, "topic": "places_country", "subject": "Qatar", "relation": "madhhab", "object": "Malikism", "question": "The Islamic school followed in Qatar is ____.", "answer": "Malikism", "variant_type": "style", "hops": 0, "constraints": "fill-in-the-blank; single word", "split": "train"}
+
+{"id": 7, "seed_id": 8, "topic": "places_country", "subject": "Qatar", "relation": "madhhab", "object": "Malikism", "question": "Identify the jurisprudential school traditionally observed in Qatar.", "answer": "Malikism", "variant_type": "entailment", "hops": 0, "split": "train"}
+
+{"id": 8, "seed_id": 8, "topic": "places_country", "subject": "Qatar", "relation": "madhhab", "object": "Malikism", "question": "To which broader branch of Islam does the madhhab practiced in Qatar belong?", "answer": "Sunni Islam", "variant_type": "multihop_branch", "hops": 1, "split": "train"}
+
+{"id": 9, "seed_id": 8, "topic": "places_country", "subject": "Qatar", "relation": "madhhab", "object": "Malikism", "question": "Who was the founder of the madhhab followed in Qatar?", "answer": "Malik ibn Anas", "variant_type": "multihop_founder", "hops": 1, "split": "train"}
+
+{"id": 10, "seed_id": 8, "topic": "places_country", "subject": "Qatar", "relation": "madhhab", "object": "Malikism", "question": "Which region’s traditions influenced the development of Qatar’s main madhhab?", "answer": "Medina", "variant_type": "multihop_origin", "hops": 1, "split": "dev"}
+
+{"id": 11, "seed_id": 8, "topic": "places_country", "subject": "Qatar", "relation": "madhhab", "object": "Malikism", "question": "Among Qatar, Saudi Arabia, and Oman, which country predominantly follows the Malikite madhhab?", "answer": "Qatar", "variant_type": "multihop_inverse", "hops": 2, "split": "dev"}
+
+{"id": 12, "seed_id": 8, "topic": "places_country", "subject": "Qatar", "relation": "madhhab", "object": "Malikism", "question": "What is the main fiqh school associated with Qatar’s interpretation of Islamic law?", "answer": "Malikism", "variant_type": "alias_disamb", "hops": 0, "split": "train"}
+
+{"id": 0, "seed_id": 9, "topic": "event_history", "subject": "February Revolution", "relation": "has cause", "object": "World War I", "question": "What does February Revolution have cause?", "answer": "World War I", "variant_type": "original_direct", "hops": 0, "split": "train"}
+
+{"id": 1, "seed_id": 9, "topic": "event_history", "subject": "February Revolution", "relation": "has cause", "object": "World War I", "question": "What was the main cause of the February Revolution?", "answer": "World War I", "variant_type": "direct", "hops": 0, "split": "train"}
+
+{"id": 2, "seed_id": 9, "topic": "event_history", "subject": "February Revolution", "relation": "has cause", "object": "World War I", "question": "Which major global conflict triggered the February Revolution?", "answer": "World War I", "variant_type": "paraphrase", "hops": 0, "split": "train"}
+
+{"id": 3, "seed_id": 9, "topic": "event_history", "subject": "February Revolution", "relation": "has cause", "object": "World War I", "question": "The February Revolution was primarily a result of which war?", "answer": "World War I", "variant_type": "paraphrase", "hops": 0, "split": "train"}
+
+{"id": 4, "seed_id": 9, "topic": "event_history", "subject": "February Revolution", "relation": "has cause", "object": "World War I", "question": "What caused this revolution?", "answer": "World War I", "variant_type": "coref", "hops": 0, "split": "train"}
+
+{"id": 5, "seed_id": 9, "topic": "event_history", "subject": "February Revolution", "relation": "has cause", "object": "World War I", "question": "Historically, the February Revolution originated as a reaction to which event?", "answer": "World War I", "variant_type": "entailment", "hops": 0, "split": "train"}
+
+{"id": 6, "seed_id": 9, "topic": "event_history", "subject": "February Revolution", "relation": "has cause", "object": "World War I", "question": "Please answer in three words: The February Revolution was caused by", "answer": "World War I", "variant_type": "style", "hops": 0, "split": "train"}
+
+{"id": 7, "seed_id": 9, "topic": "event_history", "subject": "February Revolution", "relation": "has cause", "object": "World War I", "question": "The February Revolution was caused by ____.", "answer": "World War I", "variant_type": "style", "hops": 0, "constraints": "fill-in-the-blank", "split": "train"}
+
+{"id": 8, "seed_id": 9, "topic": "event_history", "subject": "February Revolution", "relation": "has cause", "object": "World War I", "question": "Which countries were primarily involved in the conflict that caused the February Revolution?", "answer": "Russia and Germany", "variant_type": "multihop_participants", "hops": 1, "split": "train"}
+
+{"id": 9, "seed_id": 9, "topic": "event_history", "subject": "February Revolution", "relation": "has cause", "object": "World War I", "question": "In which decade did the conflict that caused the February Revolution begin?", "answer": "1910s", "variant_type": "multihop_period", "hops": 1, "split": "train"}
+
+{"id": 10, "seed_id": 9, "topic": "event_history", "subject": "February Revolution", "relation": "has cause", "object": "World War I", "question": "Which global event preceded and directly contributed to the February Revolution?", "answer": "World War I", "variant_type": "multihop_temporal", "hops": 1, "split": "dev"}
+
+{"id": 11, "seed_id": 9, "topic": "event_history", "subject": "February Revolution", "relation": "has cause", "object": "World War I", "question": "The February Revolution took place during which major global conflict?", "answer": "World War I", "variant_type": "multihop_context", "hops": 2, "split": "dev"}
+
+{"id": 12, "seed_id": 9, "topic": "event_history", "subject": "February Revolution", "relation": "has cause", "object": "World War I", "question": "Among the Crimean War, World War I, and the Cold War, which event caused the February Revolution?", "answer": "World War I", "variant_type": "multihop_inverse", "hops": 2, "split": "dev"}
+
+{"id": 0, "seed_id": 10, "topic": "event_film", "subject": "Berlin International Film Festival", "relation": "discoverer or inventor", "object": "Oscar Martay", "question": "Who is the discoverer or inventor of Berlin International Film Festival?", "answer": "Oscar Martay", "variant_type": "original_direct", "hops": 0, "split": "train"}
+
+{"id": 1, "seed_id": 10, "topic": "event_film", "subject": "Berlin International Film Festival", "relation": "discoverer or inventor", "object": "Oscar Martay", "question": "Who founded the Berlin International Film Festival?", "answer": "Oscar Martay", "variant_type": "direct", "hops": 0, "split": "train"}
+
+{"id": 2, "seed_id": 10, "topic": "event_film", "subject": "Berlin International Film Festival", "relation": "discoverer or inventor", "object": "Oscar Martay", "question": "Which individual initiated the creation of the Berlin International Film Festival?", "answer": "Oscar Martay", "variant_type": "paraphrase", "hops": 0, "split": "train"}
+
+{"id": 3, "seed_id": 10, "topic": "event_film", "subject": "Berlin International Film Festival", "relation": "discoverer or inventor", "object": "Oscar Martay", "question": "Name the person who proposed the establishment of the Berlin International Film Festival.", "answer": "Oscar Martay", "variant_type": "paraphrase", "hops": 0, "split": "train"}
+
+{"id": 4, "seed_id": 10, "topic": "event_film", "subject": "Berlin International Film Festival", "relation": "discoverer or inventor", "object": "Oscar Martay", "question": "Who was responsible for founding this film festival?", "answer": "Oscar Martay", "variant_type": "coref", "hops": 0, "split": "train"}
+
+{"id": 5, "seed_id": 10, "topic": "event_film", "subject": "Berlin International Film Festival", "relation": "discoverer or inventor", "object": "Oscar Martay", "question": "Please answer in two words: The founder is", "answer": "Oscar Martay", "variant_type": "style", "hops": 0, "split": "train"}
+
+{"id": 6, "seed_id": 10, "topic": "event_film", "subject": "Berlin International Film Festival", "relation": "discoverer or inventor", "object": "Oscar Martay", "question": "The Berlin International Film Festival was founded by ____.", "answer": "Oscar Martay", "variant_type": "style", "hops": 0, "constraints": "fill-in-the-blank", "split": "train"}
+
+{"id": 7, "seed_id": 10, "topic": "event_film", "subject": "Berlin International Film Festival", "relation": "discoverer or inventor", "object": "Oscar Martay", "question": "Which individual is credited with conceiving the idea for the Berlin International Film Festival?", "answer": "Oscar Martay", "variant_type": "entailment", "hops": 0, "split": "train"}
+
+{"id": 8, "seed_id": 10, "topic": "event_film", "subject": "Berlin International Film Festival", "relation": "discoverer or inventor", "object": "Oscar Martay", "question": "In which year did the person who founded the Berlin International Film Festival make the proposal?", "answer": "1950", "variant_type": "multihop_temporal", "hops": 1, "split": "train"}
+
+{"id": 9, "seed_id": 10, "topic": "event_film", "subject": "Berlin International Film Festival", "relation": "discoverer or inventor", "object": "Oscar Martay", "question": "What was Oscar Martay’s nationality?", "answer": "American", "variant_type": "multihop_nationality", "hops": 1, "split": "train"}
+
+{"id": 10, "seed_id": 10, "topic": "event_film", "subject": "Berlin International Film Festival", "relation": "discoverer or inventor", "object": "Oscar Martay", "question": "What was the professional role of the person who created the Berlin International Film Festival?", "answer": "film officer of the U.S. Army", "variant_type": "multihop_profession", "hops": 1, "split": "dev"}
+
+{"id": 11, "seed_id": 10, "topic": "event_film", "subject": "Berlin International Film Festival", "relation": "discoverer or inventor", "object": "Oscar Martay", "question": "Which film festival was founded by Oscar Martay?", "answer": "Berlin International Film Festival", "variant_type": "multihop_inverse", "hops": 2, "split": "dev"}
+
+{"id": 12, "seed_id": 10, "topic": "event_film", "subject": "Berlin International Film Festival", "relation": "discoverer or inventor", "object": "Oscar Martay", "question": "The Berlin International Film Festival was established following a proposal by which American film officer?", "answer": "Oscar Martay", "variant_type": "alias_disamb", "hops": 0, "split": "train"}

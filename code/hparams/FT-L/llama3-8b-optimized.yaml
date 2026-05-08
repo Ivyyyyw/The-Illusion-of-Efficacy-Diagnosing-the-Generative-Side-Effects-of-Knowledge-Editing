@@ -1,0 +1,25 @@
+# Optimized config - reduce overfitting
+# For fine-tuning on small datasets
+
+alg_name: "FT-L"
+model_name: "./hugging_cache/llama-3-8b-instruct"
+device: 0
+
+layers: [21]
+num_steps: 10         # Reduce training steps: 25 → 10
+batch_size: 1
+max_length: 40
+lr: 1e-4              # Lower learning rate: 5e-4 → 1e-4
+weight_decay: 0.01    # Add weight decay to prevent overfitting
+kl_factor: 0
+norm_constraint: false
+
+objective_optimization: "prompt_last"
+rewrite_module_tmp: "model.layers.{}.mlp.down_proj.weight"
+layer_module_tmp: "model.layers.{}"
+mlp_module_tmp: "model.layers.{}.mlp"
+attn_module_tmp: "model.layers.{}.self_attn"
+ln_f_module: "model.norm"
+lm_head_module: "lm_head"
+model_parallel: false
+

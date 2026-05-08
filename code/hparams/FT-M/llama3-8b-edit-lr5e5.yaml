@@ -1,0 +1,33 @@
+# Single-sample editing mode with lower learning rate
+# 降低学习率以减少重复问题
+
+alg_name: "FT-M"
+model_name: "./hugging_cache/llama-3-8b-instruct"
+device: 0
+
+# 单层编辑（快速记忆）
+layers: [21]
+
+# 稍微增加训练步数来补偿较低的学习率
+num_steps: 40           # 从30增加到40
+batch_size: 1
+max_length: 128         # 覆盖完整回答
+
+# 较低学习率（更稳定，减少重复）
+lr: 5e-5                # 降低到 5e-5
+weight_decay: 0.01      # 轻正则
+
+# 防止语言崩溃
+kl_factor: 0.05         # 0.05-0.1，避免偏离太远
+norm_constraint: true   # 限制更新范数
+
+objective_optimization: "target_new"
+
+rewrite_module_tmp: "model.layers.{}.mlp.down_proj.weight"
+layer_module_tmp: "model.layers.{}"
+mlp_module_tmp: "model.layers.{}.mlp"
+attn_module_tmp: "model.layers.{}.self_attn"
+ln_f_module: "model.norm"
+lm_head_module: "lm_head"
+model_parallel: false
+

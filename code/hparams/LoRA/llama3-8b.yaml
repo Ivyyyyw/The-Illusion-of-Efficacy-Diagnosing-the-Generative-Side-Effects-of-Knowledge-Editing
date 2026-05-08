@@ -1,0 +1,21 @@
+alg_name: "LoRA"
+model_name: "./hugging_cache/llama-3-8b-instruct"
+device: 0
+
+# LoRA Configuration - Optimized for single-sample knowledge editing
+# Each seed has ~12-15 samples, so 3-5 epochs is enough
+lora_type: "lora"
+layers: []
+num_steps: 3  # 3 epochs × ~13 samples = ~40 iterations per seed
+batch_size: 1  # Keep batch_size=1 for single-sample mode
+max_length: 30
+lr: 1e-4  # Standard LR
+weight_decay: 0.01
+kl_factor: 0
+rank: 4  # rank=4 is a good balance
+lora_alpha: 8  # scaling = 8/4 = 2x
+lora_dropout: 0.05
+norm_constraint: false
+# Target modules for knowledge editing
+target_modules: ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"]
+model_parallel: false

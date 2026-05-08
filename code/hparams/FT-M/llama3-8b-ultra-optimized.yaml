@@ -1,0 +1,27 @@
+# Ultra-optimized config - strong overfitting prevention
+# For fine-tuning on small datasets
+# FT-M: optimize entire target_new sequence (suitable for Q&A)
+
+alg_name: "FT-M"
+model_name: "./hugging_cache/llama-3-8b-instruct"
+device: 0
+
+layers: [21]
+num_steps: 5          # Significantly reduce training steps: 10 → 5
+batch_size: 1
+max_length: 40
+lr: 5e-5              # Lower learning rate: 1e-4 → 5e-5
+weight_decay: 0.05    # Increase weight decay: 0.01 → 0.05
+kl_factor: 0
+norm_constraint: false
+
+# FT-M uses target_new optimization (optimize entire answer sequence)
+objective_optimization: "target_new"
+rewrite_module_tmp: "model.layers.{}.mlp.down_proj.weight"
+layer_module_tmp: "model.layers.{}"
+mlp_module_tmp: "model.layers.{}.mlp"
+attn_module_tmp: "model.layers.{}.self_attn"
+ln_f_module: "model.norm"
+lm_head_module: "lm_head"
+model_parallel: false
+
