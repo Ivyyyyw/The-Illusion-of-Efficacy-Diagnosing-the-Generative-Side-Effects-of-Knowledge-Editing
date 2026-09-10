@@ -1,8 +1,7 @@
-# MyEasyEdit Anonymous
+# The-Illusion-of-Efficacy-Diagnosing-the-Generative-Side-Effects-of-Knowledge-Editing
 
 This repository contains the anonymized code and data for evaluating knowledge editing methods under free-form, multi-question generation. The main experiment compares `prompt_v2`, `ROME`, `FT-M`, `GRACE`, and `WISE` on a unified 51-instance evaluation set built for the paper.
 
-Contact information is withheld during anonymous review.
 
 ## Repository Structure
 
